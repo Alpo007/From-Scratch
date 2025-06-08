@@ -84,3 +84,31 @@ body{
 .signupbutton:hover{
     cursor: pointer;
 }
+
+#titledestinations{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.cardimg{
+    object-fit: scale-down;
+    width: auto;
+    height: 180px;
+    border: solid 3px #3882F6;
+    margin: 0;
+}
+
+.imgtext{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+}
