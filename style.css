@@ -32,7 +32,7 @@ body{
 
 #logo{
     margin-right: auto;
-    width: 100px;
+    width: 150px;
     height: auto;
 }
 
@@ -60,7 +60,7 @@ body{
 
 .header2{
     display: flex;
-    margin-top: 1%;
+    margin-top: 0;
     margin-left: 15%;
 }
 
@@ -86,6 +86,7 @@ body{
 }
 
 #titledestinations{
+    text-decoration: underline;
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
@@ -111,4 +112,27 @@ body{
     text-align: center;
     margin-top: 5px;
     font-size: 20px;
+}
+
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 200px;
+    margin-top: 2%;
+}
+
+.quotetext{
+    font-size: 36px;
+    color: light italic;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#quotealpo{
+    font-size: 20px;
+    text-align: end;
+    margin-top: -50px;
+    margin-right: 150px;
 }
